@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+using std::cout;
+using std::cin;
 
 bool figure 1(double x, double y) {
     return (x >= 0 && y >= 0 && y <= -2 * (x - 1));
