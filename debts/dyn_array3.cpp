@@ -2,7 +2,7 @@
 
 void snakeArray(int** A, int n)
 {
-    int fill = 1, dd0 = 0, ud0 = n - 1, nn=n*n;
+    int fill = 1, nn=n*n;
     for (int i = 0; ;)
     {
         for (int j = 0; j < n; ++j)
