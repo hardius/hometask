@@ -18,22 +18,6 @@ std::string reverseword(std::string word)
     return word;
 }
 
-void reverseword2(std::string &word)
-{
-    int i = 0, n = word.length(), j = n - 1;
-    char temp;
-
-    n = n / 2;
-    for (; i < n; ++i)
-    {
-        temp = word[i];
-        word[i] = word[j];
-        word[j] = temp;
-
-        --j;
-    }
-}
-
 std::string reversesentence(std::string sentence)
 {
     int n = sentence.length(), mark = 0;
