@@ -1,9 +1,8 @@
 ﻿#include <iostream>
-#include <cmath>
 
 int main()
 {
-    double R = 3;
+    double R = 1e6;
     long long Nsqr = (R + 1) * (R + 1), N = 0;
 
     for (int x = 1; x <= R; ++x)
