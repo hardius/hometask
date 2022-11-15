@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <cmath>
 
 std::string reverseword(std::string word)
 {
