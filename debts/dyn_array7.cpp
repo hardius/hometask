@@ -11,7 +11,6 @@ void shiftArray(int A[], int n, int k)
             A[j] = A[j + 1];
             A[j + 1] = temp;
         }
-        Print(A, 10);
         A[n - 1] = first;
         first = A[0];
     }
